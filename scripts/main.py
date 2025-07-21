@@ -7,6 +7,7 @@ def main():
     value = np.array([[2.0, 3.0]], dtype=np.float64)
     pyo3_demos.square_in_place(value)
     print(value)
+    print(pyo3_demos.generate_new_ndarray())
     pass
 
 
